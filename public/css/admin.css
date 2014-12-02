@@ -1,0 +1,43 @@
+/**
+ * "Admin" styles, only applied if user is logged in for editting the content
+**/
+.editable{
+    transition: 0.2s all ease-in;
+}
+
+.editable:hover {
+	background: rgba(0,0,0,0.03);
+	/*
+	margin: 0.05rem;
+	*/
+}
+.save-button {
+    font-size: 1.9rem;
+    line-height: 2rem;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 4rem;
+    z-index: 10;
+}
+.cancel-button {
+    font-size: 1.9rem;
+    line-height: 2rem;
+    position: fixed;
+    right: 4rem;
+    top: 0;
+    width: 4rem;
+    z-index: 10;
+}
+.ui-buttonset .ui-button {
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: -0.3rem;
+}
+.halloEditIndicator {
+    background: none repeat scroll 0 0 #fff;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+    padding: 0.2rem;
+    position: absolute;
+    z-index: 12;
+}

@@ -1,0 +1,132 @@
+/* Demo CSS */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+}
+
+/**
+ * User area and admin styles
+ */
+.admin {
+    background: none repeat scroll 0 0 #222;
+    border-bottom: 1px solid #000000;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: none;
+    height: 4rem;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+.admin h1, .admin h2, .admin a {
+    color: #49c07c;
+}
+.admin .title {
+    float: left;
+    font-weight: bolder;
+    line-height: 4rem;
+    margin-left: 2rem;
+    position: fixed;
+    z-index: 11;
+}
+.edit-controls, .user-area{
+    float: right;
+    /*
+    width: 50%;
+     */
+}
+.message{
+    float: right;
+    margin-top: 0.5rem;
+    width: 28%;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="week"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="color"]:focus, textarea:focus {
+    background: none repeat scroll 0 0 #444;
+    border-color: #999999;
+    outline: medium none;
+    box-shadow: none;
+}
+.user-area i {
+    border-right: 1px solid #070707;
+    height: 4rem;
+    line-height: 4rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+.edit-controls button {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #030303 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: none solid none none;
+    border-width: medium 1px medium medium;
+    height: 4rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+.user-area input, .user-area button {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-color: -moz-use-text-color #030303 -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: none solid none none;
+    border-width: medium 1px medium medium;
+    color: #eee;
+    display: inline;
+    height: 4rem;
+    margin: 0;
+    max-width: 30%;
+    min-width: 30%;
+}
+.show-admin {
+    color: #eee;
+    font-size: 2rem;
+    line-height: 4rem;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 4rem;
+    cursor: pointer;
+    opacity: 0.1;
+    transition: 0.2s all ease-in;
+    z-index: 11;
+}
+.show-admin:hover {
+    opacity: 0.9;
+}
+.light{
+    /*
+     */
+    color: #eee;
+    top: 4rem;
+}
+
+/**
+ * Custom styles
+ */
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 10rem;
+    line-height: 10rem;
+    background: #030303;
+}
+header h1{
+    color: #eee;
+    line-height: 10rem;
+}
