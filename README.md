@@ -51,6 +51,9 @@ Javascript library for easy manipulation with arrays.
 Javascript library to handle keyboard shortcuts.
  - by [ccampbell](https://github.com/ccampbell/mousetrap)
 
+## NOTE
+This project is in early state of development, i started it as tool to help me start and easily manage simple web pages for clients. Feel free to do whatever you want with it ;)
+ 
 ### TO-DO
 - INSTALLATION
 - "admin" section
