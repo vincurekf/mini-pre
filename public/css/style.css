@@ -19,9 +19,6 @@ body {
     color: #fff;
     display: none;
     height: 4rem;
-    left: 0;
-    position: fixed;
-    top: 0;
     width: 100%;
     z-index: 10;
 }
@@ -36,11 +33,14 @@ body {
     position: fixed;
     z-index: 11;
 }
+.admin .title svg {
+    height: 2rem;
+    line-height: 4rem;
+    margin-top: 1rem;
+    width: 2rem;
+}
 .edit-controls, .user-area{
     float: right;
-    /*
-    width: 50%;
-     */
 }
 .message{
     float: right;
