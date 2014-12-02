@@ -78,3 +78,11 @@ $registration = new Registration();
 <div class="show-admin">
     <i class="fa fa-cog"></i>
 </div>
+<!-- header -->
+<header>
+<div class="row">
+    <div class="large-12 columns">
+        <h1><?php echo PAGE_TITLE; ?></h1>
+    </div>
+</div>
+</header>

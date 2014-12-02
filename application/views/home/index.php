@@ -1,11 +1,3 @@
-<!-- header -->
-<header>
-<div class="row">
-	<div class="large-12 columns">
-		<h1><?php echo PAGE_TITLE; ?></h1>
-	</div>
-</div>
-</header>
 <!-- index - content -->
 <div class="row">
 	<div class="large-12 columns editable" pre-id="main-content"></div>

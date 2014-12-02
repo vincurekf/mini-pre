@@ -2,6 +2,9 @@
 
 This is just package of some bacis stuff put together to easily start coding a new project with easy front end administration in-line editting.
 
+### Example
+[Working exmple](http://mini-pre.meshr.cz), you can login with username 'demo' and password 'demopass'
+
 # How to use MINI-PRE
 ## Installation
 1. Copy MINI-PRE to the root of your future project
@@ -11,7 +14,7 @@ This is just package of some bacis stuff put together to easily start coding a n
 5. That's it! You can start building on top of MINI-PRE with inline text editing, basic login feature, foundation framework and other great libraries prepared four you ;)
 
 ## How to add editable content
-It's built for easy use, just add element with unique PRE-ID attribute and class .editable (eg. <p class="editable" pre-id="uniqe-paragraph-main-page">Dummy text</p>), and MINI-PRE will take care of the rest ;)
+It's built for easy use, just add element with unique PRE-ID attribute and class .editable (eg. <div class="editable" pre-id="uniqe-paragraph-main-page">Dummy text</div>), and MINI-PRE will take care of the rest ;)
 
 ## Basic file structure
 This project aims to be easily usable so here are the main files that you may want to edit:
@@ -20,7 +23,7 @@ This project aims to be easily usable so here are the main files that you may wa
 #### application/views/:
 - home/index.php : default index of your application
 - login/: file names are pretty much explaining what's the content ;)
-- _templates: header and footer for your application_
+- templates: header and footer for your application
 
 ## Contains
 
