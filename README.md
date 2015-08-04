@@ -14,7 +14,13 @@ This is just package of some bacis stuff put together to easily start coding a n
 5. That's it! You can start building on top of MINI-PRE with inline text editing, basic login feature, foundation framework and other great libraries prepared four you ;)
 
 ## How to add editable content
-It's built for easy use, just add element with unique PRE-ID attribute and class .editable (eg. <div class="editable" pre-id="uniqe-paragraph-main-page">Dummy text</div>), and MINI-PRE will take care of the rest ;)
+It's built for easy use, just add element with unique PRE-ID attribute and class .editable
+
+for example.: 
+```html
+<div class="editable" pre-id="uniqe-paragraph-main-page">Dummy text</div>
+```
+and MINI-PRE will take care of the rest ;)
 
 ## Basic file structure
 This project aims to be easily usable so here are the main files that you may want to edit:
